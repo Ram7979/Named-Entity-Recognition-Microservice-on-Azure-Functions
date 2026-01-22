@@ -1,4 +1,3 @@
-"""
 # Named Entity Recognition Microservice on Azure Functions
 
 ## Overview
@@ -141,4 +140,3 @@ az group delete --name ner-microservice-rg --yes
 - Function timeout: 5 minutes (default)
 - Max request size: 100MB
 - spaCy model: en_core_web_sm (12MB)
-"""
