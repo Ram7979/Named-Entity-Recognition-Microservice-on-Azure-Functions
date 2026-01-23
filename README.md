@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8ee2771a6cdca5bb46b3886d7101600fd08d3f4c
 # Named Entity Recognition Microservice on Azure Functions
 
 ## Overview
@@ -7,7 +11,11 @@ Serverless NER microservice using spaCy on Azure Functions with Blob Storage log
 - Azure account with active subscription
 - Azure CLI installed
 - Azure Functions Core Tools v4
+<<<<<<< HEAD
 - Python 3.9–3.11 (spaCy 3.7.x does not yet support 3.12/3.13)
+=======
+- Python 3.9+
+>>>>>>> 8ee2771a6cdca5bb46b3886d7101600fd08d3f4c
 - pip
 
 ## Local Setup
@@ -140,4 +148,8 @@ az group delete --name ner-microservice-rg --yes
 - Function timeout: 5 minutes (default)
 - Max request size: 100MB
 - spaCy model: en_core_web_sm (12MB)
+<<<<<<< HEAD
 """
+=======
+
+>>>>>>> 8ee2771a6cdca5bb46b3886d7101600fd08d3f4c
